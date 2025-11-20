@@ -20,3 +20,6 @@ SELECT * FROM students;
 SELECT DISTINCT Course FROM students;
 SELECT * FROM students WHERE Age > 23;
 SELECT * FROM students ORDER BY Age DESC;
+
+
+
