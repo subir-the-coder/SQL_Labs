@@ -1,10 +1,19 @@
 # SQL Labs
 
-This repository contains SQL lab exercises for beginners:
+Learn SQL step by step with these lab exercises.
 
-- Lab 1: Students table with SELECT, WHERE, ORDER BY, DISTINCT, LIMIT, and TRUNCATE operations.
-- Lab 2: Employees table with string and numeric functions like UPPER, LOWER, CONCAT, ABS, ROUND, CEIL, FLOOR.
+## Lab 1: Students Table
+- Create and insert student records
+- Practice SELECT, WHERE, ORDER BY, DISTINCT, LIMIT
 
-**Usage:**
-- Import `.sql` files into MySQL Workbench or any SQL client.
-- Execute step by step to learn SQL commands and functions.
+## Lab 2: Employees Table
+- Create and insert employee records
+- Practice string functions: UPPER, LOWER, CONCAT
+- Practice numeric functions: ABS, ROUND, CEIL, FLOOR
+
+## Usage
+1. Open MySQL Workbench or any SQL client.
+2. Create a database:
+   ```sql
+   CREATE DATABASE SQL_Labs;
+   USE SQL_Labs;
